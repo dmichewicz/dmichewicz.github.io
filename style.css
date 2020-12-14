@@ -1,0 +1,53 @@
+
+body {
+	font-family: 'Caveat Brush', cursive;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFE3E3;
+	background: linear-gradient(to bottom, rgb(146, 114, 114), rgb(61, 52, 52)) center center fixed;
+}
+
+.gameArea {
+	width: 1000px;
+	height: 570px;
+	background: #FFE3E3;
+	border: 5px solid black;
+	border-radius: 2%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	color: #FFE3E3;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.ralf {
+    height: 150px;
+    width: 150px;
+}
+
+
+
+.target {
+    height: 150px;
+    width: 150px;
+    background-color: rgba(118, 85, 85, 0.8);
+ }
+
+ .obstacle {
+ 	height: 150px;
+  width: 150px;
+	background-color: black;
+	opacity: 0.8;
+ }
+
+.nagroda {
+	width: 400px;
+}
+
+.endOfGame {
+	animation-duration: 5s;
+	color: black;
+}
